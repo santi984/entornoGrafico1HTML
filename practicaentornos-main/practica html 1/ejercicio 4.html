@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .contenedor1 {
+            position: relative; /* Necesario para que el texto se posicione respecto a este div */
+            width: 1150px;
+            height: 150px;
+            border: 1px solid black;
+        }
+        .contenedor2 {
+            position: relative; /* Necesario para que el texto se posicione respecto a este div */
+            width: 1150px;
+            height: 750px;
+            border: 1px solid black;
+        }
+        .contenedor3 {
+            position: absolute; /* Necesario para que el texto se posicione respecto a este div */
+            width: 180px;
+            height: 30px;
+            top: 295px;
+            left: 120px;
+            border: 2px solid black;
+        }
+        .contenedor4 {
+            position: absolute; /* Necesario para que el texto se posicione respecto a este div */
+            width: 180px;
+            height: 80px;
+            top: 330px;
+            left: 120px;
+            border: 2px solid black;
+        }
+       .contenedor5 {
+            position: absolute; /* Necesario para que el texto se posicione respecto a este div */
+            width: 110px;
+            height: 30px;
+            top: 420px;
+            left: 100px;
+            border: 2px solid black;
+        }
+        .contenedor6 {
+            position: absolute; /* Necesario para que el texto se posicione respecto a este div */
+            width: 110px;
+            height: 30px;
+            top: 420px;
+            left: 220px;
+            border: 2px solid black;
+        }
+        .texto-posicionado1 {
+            position: absolute;
+            top: 30px;    /* Distancia desde el borde superior del contenedor */
+            left: 300px;   /* Distancia desde el borde izquierdo del contenedor */
+            background: yellow;
+            padding: 10px;
+        }
+        .texto-posicionado2 {
+            position: absolute;
+            top: 10px;    /* Distancia desde el borde superior del contenedor */
+            left: 350px;   /* Distancia desde el borde izquierdo del contenedor */
+            background: yellow;
+            padding: 10px;
+        }
+        .texto-posicionado3 {
+            position: absolute;
+            top: 90px;    /* Distancia desde el borde superior del contenedor */
+            left: 1000px;/* Distancia desde el borde izquierdo del contenedor */
+            background: yellow;
+            padding: 10px;
+        }
+        .texto-posicionado4 {
+            position: absolute;
+            top: 65px;    /* Distancia desde el borde superior del contenedor */
+            left: 800px;   /* Distancia desde el borde izquierdo del contenedor */
+            background: yellow;
+            padding: 10px;
+        }
+        .texto-posicionado5 {
+            position: absolute;
+            top: 140px;    /* Distancia desde el borde superior del contenedor */
+            left: 200px;   /* Distancia desde el borde izquierdo del contenedor */
+            background: yellow;
+            padding: 10px;
+        }
+        .texto-posicionado6 {
+            position: absolute;
+            top: 300px;    /* Distancia desde el borde superior del contenedor */
+            left: 400px;   /* Distancia desde el borde izquierdo del contenedor */
+            background: yellow;
+            padding: 10px;
+        }
+        .texto-posicionado7 {
+            position: absolute;
+            top: 460px;    /* Distancia desde el borde superior del contenedor */
+            left: 350px;   /* Distancia desde el borde izquierdo del contenedor */
+            background: yellow;
+            padding: 10px;
+        }
+        .texto-posicionado8 {
+            position: absolute;
+            top: 530px;    /* Distancia desde el borde superior del contenedor */
+            left: 400px;   /* Distancia desde el borde izquierdo del contenedor */
+            background: yellow;
+            padding: 10px;
+        }
+        .texto-posicionado9 {
+            position: absolute;
+            top: 670px;    /* Distancia desde el borde superior del contenedor */
+            left: 500px;   /* Distancia desde el borde izquierdo del contenedor */
+            background: yellow;
+            padding: 10px;
+        }
+        table{
+            border-collapse: collapse; /* Los bordes de la tabla se pegarán (mejor aspecto) */
+        }       
+        td{
+            border: 1px solid black;
+        }
+        th{
+            border: 1px solid black;
+        }
+        .boton {
+             width: 100%;
+             height: 100%;
+             display: flex;
+             align-items: center; 
+             justify-content: center; 
+             font-size: 18px;
+             font-weight: bold;
+        }    
+    </style>
+</head>
+<body>
+    <div class="contenedor1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vhRxrw6ltCuyJGMPazuGBMJu_6iPsQ74Yg&s" width="45" height="65"/>
+        <p class="texto-posicionado1"><i>imagen con un enlace al sitio web de la Universidad</i></p>
+        <p class="texto-posicionado3"><i>línea</i></p>
+       
+    </div>
+    <div class="contenedor2">
+        <h1>&nbsp;AÑO 2008</h1>
+        <p class="texto-posicionado2"><i>título</i></p>
+        <table width="700" summary="Datos correspondientes al ejercicio vencido">
+            <tr>
+                <th colspan="2">Exámenes</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Fecha:.......</td>
+                <td>Aprobados</td>
+            </tr>
+            <tr>
+                <td>24/30</td>
+            </tr>
+        </table>    
+        <p class="texto-posicionado4"><i>tabla (en la línea de puntos aparece <br>la fecha de la última actualización)</i></p>
+        <OL>
+            <LI><A rel="stylesheet" href="Enunciado del examen">Enunciado del examen</A></LI>
+            <LI><A rel="stylesheet" href="Resolucion">Resolución</A></LI>
+        </OL> 
+        <p class="texto-posicionado5"><i>lista ordenada con dos enlaces textuales: uno interno a la página (Enunciado) <br> y otro externo, a otra página que se abre en una ventana nueva (Resolución).</i></p>
+        <br>
+        <br>
+        <p>&nbsp;Puede realizar consultas completando el siguiente formulario:</p>
+        <div class="contenedor3"></div>
+        <div class="contenedor4"></div>
+        <h3>&nbsp;e_mail:</h3>
+        <h3>&nbsp;consulta:</h3>
+        <div class="contenedor5">
+            <div class="boton">ENVIAR</div>
+        </div>
+        <div class="contenedor6">
+            <div class="boton">BORRAR</div>
+        </div>
+        <p class="texto-posicionado6"><i>formulario que se envía por correo electrónico a &nbsp;&nbsp;<A rel="stylesheet" href="x@x.com"> x@x.com</A></i></p>
+        <br><br><br><br>
+        <h1>&nbsp;Enunciado del examen</h1>
+        <DD>Ejercicio 1: ..........................................................<br>............................................................................</DD>
+        <DD>Ejercicio 2: ..........................................................<br>............................................................................</DD>
+        <p class="texto-posicionado7"><i>subtítulo</i></p>
+        <p class="texto-posicionado8"><i>bloque de texto con dos párrafos</i></p>
+        <br><br><br><br>
+        <p>&nbsp;Para más información dirigirse a &nbsp;&nbsp;<A rel="stylesheet" href="contancto@xx.com">contancto@xx.com</A></p>
+        <p class="texto-posicionado9"><i>enlace a una dirección de correo electrónico</i></p>
+    </div>
+</body>
+</html>

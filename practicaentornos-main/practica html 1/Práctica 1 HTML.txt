@@ -1,0 +1,90 @@
+Ejercicio 1:
+1.1- HTML es el lenguaje fundamental para crear y estructurar páginas web. Sirve para definir el contenido y la estructura de una página, como texto, imágenes, enlaces y otros elementos. 
+1.2- El lenguaje HTML se propuso en 1980 por Tim Berners-Lee. La primera versión fue escrita por Berners-Lee en 1993. 
+1.3- Las versiones de HTML incluyen HTML 1.0, HTML 2.0, HTML 3.2, HTML 4.0, HTML 4.01, XHTML, y HTML 5. Cada versión ha introducido nuevas características y mejoras. 
+1.4- HTML5 es la última versión de HTML y admite nuevas funcionalidades del lenguaje de marcado, como multimedia, nuevas etiquetas y elementos, así como nuevas API. HTML5 también admite audio y vídeo.
+2- El World Wide Web Consortium (W3C) recomienda seguir cuatro principios para crear documentos accesibles con HTML: Perceptible, Operable, Comprensible y Robusto. 
+3- En las Especificaciones de HTML, un elemento o atributo se considera desaprobado si no se recomienda su uso, y obsoleto si no se garantiza su soporte. 
+4- El DTD (Definición de Tipo de Documento) es un conjunto de reglas que define la estructura y los elementos de un documento HTML. HTML 4.01 especifica tres DTDs: estricto, transicional y conjunto de marcos. 
+5- Los metadatos en HTML son fragmentos de código que describen el contenido de una página web. Se especifican en el encabezado del código fuente, entre las etiquetas <html> y <body>. 
+
+Ejercicio 2:
+2.a- 	<!-- Código controlado el día 12/08/2009 →
+_Es un comentario por lo tanto puede estar en cualquier parte del código, es obligatorio que tenga '<!--' para comenzar a comentar y cerrar con '-->' lo cual no se cumple en el fragmento extraído.
+2.b- 	<div id="bloque1">Contenido del bloque1</div>
+_Es una etiqueta div la cual se utiliza en el 'body', divide y separa el contenido de una página web, agrupando elementos HTML. Se utiliza para estructurar la página, posicionar elementos y aplicarles estilos. debe contener '<div>' para abrir y '</div>' para cerrar, el 'id' no es obligatorio pero es práctico para referenciarlo dentro del código.
+2.c-	 <img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32" 	longdesc="detalles.htm" />
+_Es una etiqueta para insertar una imagen la cual se coloca en cualquier parte del código, se trata de un elemento vacío (lo que significa que no contiene texto o etiqueta de cierre) que requiere de por lo menos de un atributo para ser utilizado: src, el 'src' especifica la ruta a la imagen (obligatorio), el 'alt' establece un texto alternativo que describa la imagen (obligatorio), el 'id' es el identificado que sirve para referenciarlo dentro del código (opcional), el 'name' es el nombre que le asignamos a la imagen (opcional), el 'width' indica el ancho de la imagen en píxels (se puede hacer desde CSS), el 'height' indica el ancho de la imagen en píxeles (se puede hacer desde el CSS), el 'longdesc' enlaza a una descripción más detallada de una imagen, esto ayuda a mejorar la accesibilidad de la página, en especial para personas que no pueden ver la imagen. 
+2.d- 	<meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
+	<meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />
+_La etiqueta 'meta' se utiliza en el 'head' y sirve para proporcionar información sobre un documento HTML a los navegadores y a los motores de búsqueda. el 'name' es el nombre al que se asocia la metainformación, el 'lang' es para definir el idioma del contenido del elemento y sus atributos, el 'content' son los datos que quieren asociar al name, el 'http-equiv' aporta información sobre los encabezado de respuesta HTTP, puede usarse en lugar de name.
+2.e- 	<a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" 	charset="utf-8" rel="help">Resumen HTML </a>
+_La etiqueta <a> permite crear enlaces a otras páginas, archivos, direcciones de correo, o cualquier otra URL, se utiliza en el 'body'. El atributo 'href' define el enlace de destino objetivo. La URL a la que debe dirigir el enlace se pone entre comillas. La etiqueta 'hreflang' indica a los motores de búsqueda el idioma y la región de una página web, el 'rel', en un enlace entre dos documentos, describe la relación que mantiene el documento de destino con el documento presente, los atributos 'type' y 'charset' no aplican para esta función.
+2.f- 	<table width="200" summary="Datos correspondientes al ejercicio vencido">
+		<caption align="top"> Título </caption>
+		<tr>
+			<th scope="col">&nbsp;</th>
+			<th scope="col">A</th>
+			<th scope="col">B</th>
+			<th scope="col">C</th>
+		</tr>
+		<tr>
+			<th scope="row">1º</th>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<th scope="row">2º</th>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+_La función 'table' se utiliza para definir una tabla en el 'body', el 'width' define el ancho de una tabla o de las columnas de una tabla, el 'summary' se usa para definir el resumen de una tabla, el 'caption' sirve para definir el titulo de la tabla, el 'tr' sirve para definir las filas de la tabla, el 'th' sirve para definir el título de cada columna, el 'td' sirve para definir las columnas.
+
+
+
+Ejercicio 3
+A-abre Google en la misma pestaña
+-abre Google en una pestaña nueva
+-no hace nada visible, son metadatos
+-recarga la pagina
+-desplaza la pagina al elemento con dicho id
+-sirve como destino para enlaces ancla
+
+
+B-Solo el texto es clickeable
+-solo la imagen es un enlace
+-ambos elementos son clickeables juntos
+-dos enlaces que van al mismo destinto
+
+C-lista no ordenada
+-lista ordenada
+-lista ordenada con numeración personalizada
+-texto con números manuales no es tabla
+
+D-usa th para encabezados con negrita y centrado y semántica correcta
+-usa td con formato manual es menos semántico
+
+E-semántica correcta caption para títulos
+-align en tr no va
+
+F-usa rowspan y tiene filas completas y combinadas
+-filas normales y datos planos
+
+G-rowspan en celda combinada 
+-en celda izquierda, bordes compactos}
+
+H-método de envió seguro,usa fieldset para agrupar, oculta caracteres
+-datos visibles en url, sin agrupación, clave visible
+-usa mailto, agrupa como en el form 1, oculta caracteres
+
+I-permite HTML adentro, combinación de imagen mas texto, esta asociado mediante label el texto
+-solo acepta texto plano, solo texto click aquí, y texto solo en value
+
+J-Mismo nombre, funciona como grupo de opciones, x o y solo uno
+-nombres distintos, actúa como dos controles independientes, ambos seleccionables
+
+K-única opción, envia un solo valor, para elegir una única opción, click simple 
+-multiples opciones, envia un array de valores, multiple selección, requiere ctrl + click

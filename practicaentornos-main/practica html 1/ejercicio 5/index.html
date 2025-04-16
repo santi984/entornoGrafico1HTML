@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UTN - Entornos Gráficos - Ejercicio 5</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            display: flex;
+            height: 80px;
+            border-bottom: 1px solid #ccc;
+        }
+        .header-text {
+            width: 70%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .header-logo {
+            width: 30%;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: right;
+        }
+        .content {
+            display: flex;
+            height: calc(100vh - 160px);
+        }
+        .menu {
+            width: 20%;
+            padding: 10px;
+            box-sizing: border-box;
+            border-right: 1px solid #ccc;
+        }
+        .main-content {
+            width: 80%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .footer {
+            height: 80px;
+            border-top: 1px solid #ccc;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-text">
+            <h2>Encabezado de la Pagina</h2>
+        </div>
+        <div class="header-logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vhRxrw6ltCuyJGMPazuGBMJu_6iPsQ74Yg&s" width="45" height="65">
+        </div>
+    </div>
+
+    <div class="content">
+        
+        <div class="menu">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="principal.html" target="main-iframe">Inicio</a></li>
+                <li><a href="articulos.html" target="main-iframe">Articulos</a></li>
+                <li><a href="masinfo.html" target="main-iframe">Mas Info</a></li>
+            </ul>
+        </div>
+        
+        
+        <div class="main-content">
+            <iframe name="main-iframe" src="principal.html"></iframe>
+        </div>
+    </div>
+
+  
+    <div class="footer">
+        <a href="principal.html" target="main-iframe">Inicio</a> | 
+        <a href="articulos.html" target="main-iframe">Articulos</a> | 
+        <a href="masinfo.html" target="main-iframe">Mas Info</a>
+    </div>
+</body>
+</html>

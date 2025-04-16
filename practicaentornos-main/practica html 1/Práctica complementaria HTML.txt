@@ -1,0 +1,73 @@
+Ejercitación 1- 
+HTML5 es un lenguaje de programación que permite crear sitios web y aplicaciones web. Entre sus ventajas se encuentran: 
+_Compatibilidad: Es compatible con los navegadores web más populares y con dispositivos móviles. 
+_Multimedia: Permite incorporar audio y video sin necesidad de plugins adicionales. 
+_Interactividad: Permite crear sitios interactivos con gráficos, videos y audio. 
+_Optimización: Optimiza el tiempo de carga de los sitios web. 
+_Seguridad: La información del sitio web está mejor protegida. 
+_Accesibilidad: Facilita la organización del contenido y mejora la accesibilidad. 
+_SEO: Las etiquetas descriptivas brindan un mejor posicionamiento en buscadores. 
+_Experiencia de usuario: Mejora la experiencia de usuario. 
+_Formularios: Facilita la creación de formularios con entradas de texto mejoradas, cuadros de búsqueda y diferentes campos. 
+_Sin conexión: Permite que los sitios web funcionen sin conexión. 
+HTML5 es gratuito y tiene un código claro, ordenado y fácil de aprender. 
+
+Ejercitación 2-
+-Los formatos aceptados por html5 son el .mp3/.wav/.Ogg/.aac  siendo que cambia solo la compatibilidad
+-Un ejemplo de uso podría ser este:
+<audio controls>
+  <source src="C:\Users\estudiante\Downloads\Nuncamas.mp3" type="audio/mpeg">
+  Tu navegador no soporta audio HTML5.
+</audio>
+Siendo que la oracion se muestra si la pagina no muestra el audio
+
+Ejercitacion 3-
+-Los formatos aceptados por html5 son .mp4/.webm/.ogg siendo que cambia solo la compatibilidad y .mp4 el mejor
+-Un ejemplo podria ser este:
+<video width="640" height="360" controls>
+  <source src="C:\Users\estudiante\Downloads\videorandom" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
+Siendo que podes cambiar la altura y el largo y agregarle controles
+
+Ejercitación 4-
+-<form>
+  <label for="nombre">Nombre (requerido):</label>
+  <input type="text" id="nombre" name="nombre" required>
+  <button type="submit">Enviar</button>
+</form>
+
+
+-<form>
+  <label for="correo">Email:</label>
+  <input type="email" id="correo" name="correo" required>
+  <button type="submit">Enviar</button>
+</form>
+
+
+-<form>
+  <label for="fecha">Fecha de nacimiento:</label>
+  <input type="date" id="fecha" name="fecha" required>
+  <button type="submit">Enviar</button>
+</form>
+
+
+-<form>
+  <label for="color">Elige un color:</label>
+  <input type="color" id="color" name="color">
+  <button type="submit">Enviar</button>
+</form>
+
+
+
+-<form>
+  <label for="edad">Edad (entre 18 y 99):</label>
+  <input type="number" id="edad" name="edad" min="18" max="99" required>
+  <button type="submit">Enviar</button>
+</form>
+
+
+
+
+
+
